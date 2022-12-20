@@ -1,0 +1,27 @@
+Chapter 1: Getting Started
+
+To get started with Next.js, you will need to install the Next.js library and create a new project using the Next.js CLI or a tool such as Create Next App.
+Next.js uses a file-system based routing system, where each file in the pages directory represents a route. To create a new page, simply create a new file in the pages directory.
+Next.js supports automatic code splitting, which means that your application will only load the code that is needed for each page, improving performance and reducing the initial load time.
+
+Chapter 2: Fetching Data
+
+Next.js provides a getStaticProps and a getServerSideProps function that allow you to fetch data at build time or on the server for each request, respectively.
+To fetch data at build time, you can use the getStaticProps function inside a page component. This function takes a context object as an argument and returns an object with the props that will be passed to the component.
+To fetch data on the server for each request, you can use the getServerSideProps function inside a page component. This function takes a context object as an argument and returns an object with the props that will be passed to the component.
+
+Chapter 3: Real-Time Applications
+
+Next.js comes with built-in support for Server-Sent Events (SSE) and WebSockets, making it easy to build real-time applications.
+To use SSE in your Next.js app, you can use the EventSource API on the client and the sse middleware on the server.
+To use WebSockets in your Next.js app, you can use the WebSocket API on the client and the ws middleware on the server.
+
+Chapter 4: Deployment
+
+Next.js has built-in support for optimized production builds and serverless functions, making it easy to deploy your application to a hosting provider or a serverless environment.
+To deploy your Next.js app to a hosting provider, you can use the next build and next export commands to create a production-ready build of your app, and then upload the resulting files to your hosting provider.
+To deploy your Next.js app as a serverless function, you can use tools such as Zeit Now or AWS Lambda to host your app as a function.
+
+Conclusion
+In this book, we have learned how to use Next.js to build world-class web apps. We have covered the basics of Next.js, including how to create pages and routes, fetch data, build real-time applications, and deploy our app.
+With the knowledge and skills that you have acquired from this book, you are now ready to build your own amazing web apps using Next.js. Happy coding!
